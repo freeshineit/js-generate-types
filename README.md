@@ -8,10 +8,24 @@ pnpm run type
 # or
 npx tsc
 ```
+### tsconfig.json 配置
 
-### [jsdoc](https://www.jsdoc.com.cn/)
+下面配置很重要
+
+```json
+{
+    "compilerOptions": {
+        "allowJs": true,                                  
+        "checkJs": true, /** 这个会有提示 */                                  
+        "declaration": true, 
+        "emitDeclarationOnly": true
+    }
+}
+```
+### [jsdoc](https://www.jsdoc.com.cn/)结合tsc
 
 使用文档注释可以方便ts去推导类型。当然如果ts自己能推导出那就可以不用去声明注释。
+
 
 - example
 ```js
