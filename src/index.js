@@ -87,7 +87,7 @@ class Serve {
    * @param {number} port
    */
   constructor(port) {
-    this.port = name;
+    this.port = port;
   }
 
   serve() {
