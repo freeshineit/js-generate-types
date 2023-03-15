@@ -7,9 +7,13 @@
   "scripts": {
     "type": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["javascript", "types", "@types"],
+  "author": "ShineShao <xiaoshaoqq@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "src",
+    "types"
+  ],
   "devDependencies": {
     "@types/node": "^18.15.3",
     "ts-node": "^10.9.1",
